@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: "MONSTER CLUBHOUSE";
+  src: url(./assets/fonts/Monster_Clubhouse.ttf) format("truetype")
+}
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;

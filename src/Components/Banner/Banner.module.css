@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "MONSTER CLUBHOUSE";
+    src: url(../../assets/fonts/Monster_Clubhouse.ttf) format("truetype")
+  }
 .container{
 position: relative;  
 }
