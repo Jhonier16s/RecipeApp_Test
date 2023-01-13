@@ -42,7 +42,9 @@ const Cards = ({image_card, title, special_title, rating}) => {
                         display: "flex",
                         flexDirection: "row",
                     }}>
-                        <img src={star} alt="" />
+                        <img  style={{
+                        width: "25px",
+                    }} src={star} alt="" />
                         <p style={{
                             marginLeft: "10px",
                         }}>{rating}</p>
@@ -53,7 +55,7 @@ const Cards = ({image_card, title, special_title, rating}) => {
                         
                     }}>
                     <img style={{
-                        width: "30px",
+                        width: "25px",
                     }} src={fav} alt="" />
                     </div>
                 </div>
