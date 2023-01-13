@@ -52,7 +52,9 @@ const Cards = ({image_card, title, special_title, rating}) => {
                         flexDirection: "row",
                         
                     }}>
-                    <img src={fav} alt="" />
+                    <img style={{
+                        width: "30px",
+                    }} src={fav} alt="" />
                     </div>
                 </div>
               </div>
