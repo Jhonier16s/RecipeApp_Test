@@ -1,0 +1,9 @@
+
+
+@media (max-width: 430px) {
+    .title {
+        display: flex;
+        justify-content: center;
+    }
+
+}

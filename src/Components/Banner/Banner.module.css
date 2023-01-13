@@ -1,0 +1,156 @@
+.container{
+position: relative;  
+}
+.banner_container{
+    width: 100%;
+}
+.text_1{
+    position: absolute;
+}
+img {
+    position: relative;
+}
+
+/* Establecer posición absoluta para el texto, y ajustarlo en la parte superior izquierda de la imagen */
+.text_1 {
+    position: absolute;
+    top: 20%;
+    left: 320px;
+    z-index: 1;
+    font-size: 80px;
+    color: #fff;
+}
+.text_2 {
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 320px;
+    z-index: 1;
+    font-size: 60px;
+    font-family: "MONSTER CLUBHOUSE";
+}
+.container_card{
+    position:absolute;
+    top: 90%;
+    display: none;
+}
+@media (max-width: 1200px) {
+    .text_1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 1;
+    font-size: 55px;
+    color: #fff;
+    }
+    .text_2 {
+    position: absolute;
+    color: #fff;
+    top: 35%;
+    left: 20%;
+    z-index: 1;
+    font-size: 60px;
+    }
+}
+@media (max-width: 810px) {
+   .text_1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 1;
+    font-size: 45px;
+    color: #fff;
+    }
+    .text_2 {
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 20%;
+    z-index: 1;
+    font-size: 40px;
+    }
+    .container_card{
+        position:absolute;
+        top: 80%;
+        display: block;
+    }
+    .container{
+        position: relative;  
+        margin-bottom: 30px;
+        }
+        .banner_container{
+            width: 100%;
+        }
+        .card{
+            background: rgb(233,241,250);
+                background: linear-gradient(180deg, rgba(233,241,250,1) 0%, rgba(255,255,255,1) 100%);
+                box-shadow: 0px 5px 9px #8395A766;
+                border-radius: 10px;
+                opacity: 1;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                padding: 8px;
+                width: 100px;
+            }
+            .text_3{
+                margin: 0px;
+                font-size: 13px;
+            }
+            .container_for_cards{
+                display: flex;
+                justify-content: space-around;
+                flex-direction: row;
+                align-items: center;
+                flex-wrap: wrap;
+                
+                width: 100%;
+            }
+            .container_card{
+                width: 100%;
+            }
+}
+@media (max-width: 700px){
+    .container{
+        position: relative;  
+        margin-bottom: 150px;
+        }
+}
+@media (max-width: 430px){
+    .text_1 {
+    position: absolute;
+    top: -15%;
+    left: 20%;
+    z-index: 1;
+    font-size: 40px;
+    color: #fff;
+    }
+    .text_2 {
+    position: absolute;
+    color: #fff;
+    top: 15%;
+    left: 20%;
+    z-index: 1;
+    font-size: 40px;
+    }
+    .card{
+        background: rgb(233,241,250);
+            background: linear-gradient(180deg, rgba(233,241,250,1) 0%, rgba(255,255,255,1) 100%);
+            box-shadow: 0px 5px 9px #8395A766;
+            border-radius: 10px;
+            opacity: 1;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 8px;
+            width: 100px;
+            margin-bottom: 16px;
+        }
+        .container{
+            position: relative;  
+            margin-bottom: 150px;
+            }
+           
+}
